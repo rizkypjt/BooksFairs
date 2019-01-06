@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BooksFairs</string>
+    <string name="card_title">Books Name</string>
+    <string name="play_books">read Books</string>
+    <string name="share_books">Share Books</string>
+
+</resources>
