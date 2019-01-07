@@ -1,9 +1,10 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.DataSetObserver;
 import android.support.v7.widget.RecyclerView;
+
 /**
  * Created by isfaaghyth on 8/9/18.
  * github: @isfaaghyth

@@ -3,5 +3,16 @@
     <string name="card_title">Books Name</string>
     <string name="play_books">read Books</string>
     <string name="share_books">Share Books</string>
+    <string name="rating">Rating</string>
+    <string name="card_content">Content</string>
+    <string name="voter">voter</string>
+    <string name="waiting">Waiting...</string>
+    <string name="other_books">Other Books</string>
+    <string name="book_not_found">Book Not Fond</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="title_activity_settings">Settings</string>
+
+
 
 </resources>

@@ -1,4 +1,4 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

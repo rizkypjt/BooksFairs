@@ -1,4 +1,4 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.content.Context;
 import android.support.v7.app.AlertDialog;

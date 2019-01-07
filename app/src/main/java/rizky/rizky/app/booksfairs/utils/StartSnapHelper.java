@@ -1,4 +1,4 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

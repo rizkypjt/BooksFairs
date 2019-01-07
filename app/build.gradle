@@ -20,6 +20,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -32,4 +33,9 @@ dependencies {
     implementation 'com.github.xiangtailiang.tablayout:library:1.0.0'
     implementation 'com.buyi.recyclerviewpagerindicator:recycler-viewpager-indicator:1.0'
     implementation 'com.navercorp.pulltorefresh:extra-viewpager:3.2.3'
+    implementation 'org.webjars.bowergithub.predixdesignsystem:px-list-ui-design:2.0.3'
+
+    //calligraphy
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
 }

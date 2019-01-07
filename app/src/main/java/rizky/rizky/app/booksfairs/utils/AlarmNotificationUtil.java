@@ -1,4 +1,4 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -6,10 +6,7 @@ import android.os.Build;
 
 import java.util.Calendar;
 
-/**
- * Created by isfaaghyth on 9/12/18.
- * github: @isfaaghyth
- */
+
 
 public class AlarmNotificationUtil {
 

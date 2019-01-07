@@ -1,4 +1,4 @@
-package app.isfaaghyth.moviedb.utils;
+package rizky.rizky.app.booksfairs.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.content.Intent;
 public class ShareIntentUtil {
 
     public static void shareMovie(Context context, String... data) {
-        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+        Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
 
         String movieName = data[0];
@@ -21,8 +21,8 @@ public class ShareIntentUtil {
         String content = movieName + " " + rating + "\n" +
                 review + " - from @themoviedb.org";
 
-        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Daeng Movies");
-        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, content);
+        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Daeng Movies");
+        sharingIntent.putExtra(Intent.EXTRA_TEXT, content);
         context.startActivity(Intent.createChooser(sharingIntent, "Share in your friends"));
     }
 
